@@ -69,6 +69,7 @@ const Hero = () => {
         className="font-mono text-xs md:text-sm text-accent"
       >
         {specialText}
+        
       </motion.p>
 
       {cta && (

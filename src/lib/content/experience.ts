@@ -4,7 +4,7 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
-      company: 'Pixelwand',
+      company: 'SEO MANIAK',
       companyUrl: 'https://www.pixelwand.live/',
       role: 'frontend developer',
       started: 'july 2023',
@@ -17,7 +17,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'SHMTH Capital',
+      company: 'COMUNE URBAINE',
       companyUrl: 'https://shmth.capital/',
       role: 'frontend developer intern',
       started: 'april 2023',
@@ -29,7 +29,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'webnetics',
+      company: 'ONEE',
       companyUrl: 'https://webnetic.vercel.app/',
       role: 'frontend developer',
       started: 'june 2022',

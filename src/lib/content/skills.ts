@@ -1,6 +1,55 @@
 import { SkillsSectionType } from '@/lib/types/sections';
 import { getId } from '@/lib/utils/helper';
 
+export const certificationsSection = {
+  title: 'Certifications',
+  certifications: [
+    {
+      id: getId(),
+      title: 'Spring Framework Certification',
+      issuingOrg: 'Coursera',
+      issueDate: 'June 2023',
+      credentialUrl: 'https://coursera.org/certificate/spring-framework',
+    },
+    {
+      id: getId(),
+      title: 'Java Core Certification',
+      issuingOrg: 'Oracle',
+      issueDate: 'April 2023',
+      credentialUrl: 'https://oracle.com/certifications/java-core',
+    },
+    {
+      id: getId(),
+      title: 'php Core Certification',
+      issuingOrg: 'Oracle',
+      issueDate: 'April 2023',
+      credentialUrl: 'https://oracle.com/certifications/java-core',
+    },
+    {
+      id: getId(),
+      title: 'php Core Certification',
+      issuingOrg: 'Oracle',
+      issueDate: 'April 2023',
+      credentialUrl: 'https://oracle.com/certifications/java-core',
+    },
+    {
+      id: getId(),
+      title: 'php Core Certification',
+      issuingOrg: 'Oracle',
+      issueDate: 'April 2023',
+      credentialUrl: 'https://oracle.com/certifications/java-core',
+    },
+    {
+      id: getId(),
+      title: 'php Core Certification',
+      issuingOrg: 'Oracle',
+      issueDate: 'April 2023',
+      credentialUrl: 'https://oracle.com/certifications/java-core',
+    },
+    // Add more certifications as needed
+  ],
+};
+
 export const skillsSection: SkillsSectionType = {
   title: 'what i do',
   skills: [
@@ -21,40 +70,25 @@ export const skillsSection: SkillsSectionType = {
         // iconify icons: https://icon-sets.iconify.design/
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
+        { name: 'Php', icon: 'vscode-icons:file-type-php' },
+
         {
           name: 'typeScript',
           icon: 'vscode-icons:file-type-typescript-official',
         },
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
-        { name: 'prisma', icon: 'vscode-icons:file-type-prisma' },
         { name: 'reactjs', icon: 'logos:react' },
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
-        // { name: 'angularjs', icon: 'logos:angular-icon' },
+         { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
         { name: 'redux', icon: 'logos:redux' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
         { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        { name: 'Java', icon: 'vscode-icons:file-type-java' },
+
       ],
     },
-    {
-      id: getId(),
-      title: 'UI/UX designing',
-      lottie: {
-        light: '/lotties/designing.json',
-        dark: '/lotties/designing-dark.json',
-      },
-      points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
-      ],
-      softwareSkills: [
-        { name: 'figma', icon: 'logos:figma' },
-        { name: 'adobe illustrator', icon: 'logos:adobe-illustrator' },
-        { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
-      ],
-    },
+    
   ],
 };

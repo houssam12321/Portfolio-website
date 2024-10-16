@@ -1,12 +1,14 @@
+import CareerTimeline from '@/components/CareerTimeline';
+import CertificationsSection from '@/components/CertificatSection';
 import {
   About,
   Contact,
   Experience,
-  FeaturedProjects,
   Hero,
   Layout,
   Projects,
   Skills,
+  
 } from '@/containers';
 
 import type { NextPage } from 'next';
@@ -24,8 +26,10 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
+        <CertificationsSection />
+        <CareerTimeline/>
+
         <Experience />
-        <FeaturedProjects />
         <Projects />
         <Contact />
       </Layout>

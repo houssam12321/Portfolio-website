@@ -24,7 +24,7 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Houssam Radi, a first-year MCA student at{' '}
+            I'm Houssam Radi, a finar year software engineering student at{' '}
             <Link
               href="https://bhu.ac.in/"
               target="_blank"
@@ -32,24 +32,13 @@ const About = () => {
             >
               SupMti
             </Link>
-            .<br /> I'm an Artist as well as crazy full stack web developer who
-            wants to explore every tech stack.
+            .<br /> 
           </p>
           <p>
-            Fast-forward to today, and I've had the privilege of working at a
-            start-up -{' '}
-            <Link
-              href="https://www.pixelwand.live/"
-              target="_blank"
-              className="text-accent"
-            >
-              Pixelwand
-            </Link>
-            .
+          I have a deep passion for web development and a strong interest in Java technologies. From early on, I was captivated by the potential to create innovative, dynamic, and responsive web applications that can solve real-world problems
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+          I actively seek opportunities to contribute to meaningful projects. Whether it's collaborating on open-source platforms or building applications from scratch
           </p>
 
           {list && (
