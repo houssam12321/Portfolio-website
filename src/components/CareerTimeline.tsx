@@ -1,7 +1,9 @@
 // components/CareerTimeline.tsx
 import { careerTimeline } from '@/lib/content/career';
-import TimelineStep from './TimelineStep';
+
 import { Wrapper } from '@/components';
+
+import TimelineStep from './TimelineStep';
 
 const CareerTimeline = () => {
   const { title, steps } = careerTimeline;

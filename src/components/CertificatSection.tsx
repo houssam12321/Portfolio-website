@@ -1,7 +1,9 @@
 // components/CertificationsSection.tsx
-import Certification from '@/components/Certification';
 import { certificationsSection } from '@/lib/content/skills';
+
 import { Wrapper } from '@/components';
+import Certification from '@/components/Certification';
+
 import { getSectionAnimation } from '@/styles/animations';
 
 const CertificationsSection = () => {

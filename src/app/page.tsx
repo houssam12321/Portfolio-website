@@ -8,7 +8,6 @@ import {
   Layout,
   Projects,
   Skills,
-  
 } from '@/containers';
 
 import type { NextPage } from 'next';
