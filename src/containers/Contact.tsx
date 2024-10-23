@@ -5,7 +5,7 @@ import { Button, Wrapper } from '@/components';
 import { getSectionAnimation } from '@/styles/animations';
 
 const Contact = () => {
-  const { subtitle, title, paragraphs, link } = contactSection;
+  const { subtitle, title, paragraphs, link,info } = contactSection;
   return (
     <Wrapper
       id="contact"
@@ -15,14 +15,18 @@ const Contact = () => {
       <p className="mb-3 font-mono text-sm capitalize text-accent">
         {subtitle}
       </p>
+     
       <h2 className="heading-secondary !mb-5">{title}</h2>
 
       {paragraphs.map((paragraph, i) => (
         <p key={i}>{paragraph}</p>
       ))}
+       <p className="mb-3 font-mono text-sm capitalize text-accent">
+        {info}
+      </p>
 
       <Button type="link" size="lg" href={link} center className="mt-12">
-        Say Hello
+        Contact me !
       </Button>
     </Wrapper>
   );

@@ -7,7 +7,7 @@ export const heroSection: HeroSectionType = {
   tagline: '',
   description:
     "I'm a passionate Full-Stack web developer with hands-on experience in building web applications using React.js , Angular & Next.js with TypeScript, TailwindCSSwith UI/UX designing. I have robust skills in Java, enabling me to develop scalable and efficient server-side applications.",
-  specialText: '$',
+  specialText: "Discover my portfolio . . . ",
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,

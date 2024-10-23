@@ -6,45 +6,32 @@ export const certificationsSection = {
   certifications: [
     {
       id: getId(),
-      title: 'Spring Framework Certification',
+      title: 'Spring MVC, Spring Boot and Rest Controllers ',
       issuingOrg: 'Coursera',
       issueDate: 'June 2023',
-      credentialUrl: 'https://coursera.org/certificate/spring-framework',
+      credentialUrl: 'https://www.coursera.org/account/accomplishments/certificate/L6K772V4ODZL',
     },
     {
       id: getId(),
-      title: 'Java Core Certification',
-      issuingOrg: 'Oracle',
-      issueDate: 'April 2023',
+      title: 'Fundamentals of Java Programming',
+      issuingOrg: 'Coursera',
+      issueDate: 'September 2024',
+      credentialUrl: 'https://www.coursera.org/account/accomplishments/certificate/L6K772V4ODZL',
+    },
+    
+    {
+      id: getId(),
+      title: 'React Basics ',
+      issuingOrg: 'Meta',
+      issueDate: 'june 2024',
       credentialUrl: 'https://oracle.com/certifications/java-core',
     },
     {
       id: getId(),
-      title: 'php Core Certification',
-      issuingOrg: 'Oracle',
+      title: 'Responsive Web Design ',
+      issuingOrg: 'FreeCodeCamp',
       issueDate: 'April 2023',
-      credentialUrl: 'https://oracle.com/certifications/java-core',
-    },
-    {
-      id: getId(),
-      title: 'php Core Certification',
-      issuingOrg: 'Oracle',
-      issueDate: 'April 2023',
-      credentialUrl: 'https://oracle.com/certifications/java-core',
-    },
-    {
-      id: getId(),
-      title: 'php Core Certification',
-      issuingOrg: 'Oracle',
-      issueDate: 'April 2023',
-      credentialUrl: 'https://oracle.com/certifications/java-core',
-    },
-    {
-      id: getId(),
-      title: 'php Core Certification',
-      issuingOrg: 'Oracle',
-      issueDate: 'April 2023',
-      credentialUrl: 'https://oracle.com/certifications/java-core',
+      credentialUrl: '',
     },
     // Add more certifications as needed
   ],
@@ -71,21 +58,31 @@ export const skillsSection: SkillsSectionType = {
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
-        { name: 'Php', icon: 'vscode-icons:file-type-php' },
-
         {
           name: 'typeScript',
           icon: 'vscode-icons:file-type-typescript-official',
         },
+        { name: 'Php', icon: 'vscode-icons:file-type-php' },
+
+        
+
+        { name: 'Docker', icon: 'vscode-icons:file-type-docker' },
+
+        
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'reactjs', icon: 'logos:react' },
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
          { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        { name: 'database management', icon: 'vscode-icons:file-type-sql' },
         { name: 'Java', icon: 'vscode-icons:file-type-java' },
+        { name: 'Git', icon: 'vscode-icons:file-type-git' },
+        { name: 'spring boot', icon: 'logos:spring' },
+        { name: 'AWS', icon: 'vscode-icons:file-type-aws' },
+
+
+
+        
 
       ],
     },

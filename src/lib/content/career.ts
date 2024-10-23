@@ -6,7 +6,7 @@ export const careerTimeline = {
   steps: [
     {
       id: getId(),
-      title: 'Software Engineering Studies',
+      title: 'Final Year Software Engineering Student ',
       description: '.',
       institution: 'Higher School of Management, Computer Science and Telecommunications',
 

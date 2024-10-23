@@ -28,13 +28,7 @@ export const metadata: Metadata = {
     images: seoData.image,
     siteName: seoData.title,
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: seoData.title,
-    description: seoData.description,
-    images: seoData.image,
-    site: seoData.url,
-  },
+ 
   icons: [
     {
       rel: 'apple-touch-icon',

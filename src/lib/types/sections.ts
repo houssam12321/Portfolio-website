@@ -64,6 +64,7 @@ export interface FeaturedProjectsSectionType extends Section {
 
 export interface ContactSectionType extends Section {
   subtitle?: string;
+  info?:string[];
   paragraphs: string[];
   link: string;
 }
