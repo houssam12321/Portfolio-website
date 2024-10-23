@@ -62,9 +62,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building full-stack web applications using Next.js with TypeScript, TailwindCSS, ShadCN, and Prisma',
-        'Developing responsive single-page applications using React.js',
-        'Creating RESTful APIs using Express for backend development',
+        'Building Full-stack Web Applications ',
+        'Developing responsive single-page applications using React.js & Angular',
+        'Creating RESTful APIs using Java for backend development',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/

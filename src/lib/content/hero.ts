@@ -6,8 +6,8 @@ export const heroSection: HeroSectionType = {
   title: 'Houssam Radi.',
   tagline: '',
   description:
-    "I'm a passionate Full-Stack web developer with hands-on experience in building web applications using React.js & Next.js with TypeScript, TailwindCSS, and Prisma, with UI/UX designing.",
-  specialText: 'hhhhhh',
+    "I'm a passionate Full-Stack web developer with hands-on experience in building web applications using React.js , Angular & Next.js with TypeScript, TailwindCSSwith UI/UX designing. I have robust skills in Java, enabling me to develop scalable and efficient server-side applications.",
+  specialText: '$',
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,

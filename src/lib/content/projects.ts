@@ -25,12 +25,12 @@ export const projectsSection: ProjectsSectionType = {
     
     {
       id: getId(),
-      name: 'todo app',
-      url: 'https://todo-kv.netlify.app/',
+      name: 'Gym Website ',
+      url: 'https://react-gym-app-dusky.vercel.app/',
       repo: 'https://github.com/vatsalsinghkv/todo-app',
-      img: 'https://user-images.githubusercontent.com/68834718/152794002-0e7bc583-084b-4c39-83bb-d82d5dd642b2.png',
-      year: 2022,
-      tags: ['React', 'Sass', 'JS'],
+      img: 'https://i.postimg.cc/VLvXhDLs/screenweb.png',
+      year: 2023,
+      tags: ['React', 'JS'],
     },
     {
       id: getId(),
@@ -44,7 +44,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Tik Tak Toe Game',
-      url: 'https://blogr-kv.netlify.app/',
+      url: '',
       repo: 'https://github.com/vatsalsinghkv/blogr-landing-page',
       img: 'https://i.postimg.cc/Ss5kp3Rt/tivtac.png',
       year: 2021,
@@ -52,22 +52,14 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
-      name: 'natours',
-      url: 'https://natours-kv.netlify.app/',
+      name: 'Angular home app',
+      url: '',
       repo: 'https://github.com/vatsalsinghkv/natours',
-      img: 'https://user-images.githubusercontent.com/68834718/210223114-b4f64b44-2501-49c9-9fb7-b8e53fe654c6.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
+      img: 'https://i.postimg.cc/wv9mQkGp/homecreen.png',
+      year: 2024,
+      tags: ['Angular'],
     },
-    {
-      id: getId(),
-      name: 'nexter',
-      url: 'https://vatsalsinghkv.github.io/nexter/',
-      repo: 'https://github.com/vatsalsinghkv/nexter',
-      img: 'https://user-images.githubusercontent.com/68834718/210224671-5501c5d9-a8d2-4044-a14c-38fb7e46a113.png',
-      year: 2021,
-      tags: ['html', 'sass'],
-    },
+    
     {
       id: getId(),
       name: 'IP address tracker',
@@ -86,23 +78,7 @@ export const projectsSection: ProjectsSectionType = {
       year: 2021,
       tags: ['html', 'CSS', 'JS'],
     },
-    {
-      id: getId(),
-      name: 'pig game',
-      url: 'https://vatsalsinghkv.github.io/pig-game/',
-      repo: 'https://github.com/vatsalsinghkv/pig-game',
-      img: 'https://user-images.githubusercontent.com/68834718/210223527-de7fde7a-244e-4db5-8e33-d561afad6084.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'bankist marketing',
-      url: 'https://vatsalsinghkv.github.io/bankist-marketing/',
-      repo: 'https://github.com/vatsalsinghkv/bankist-marketing',
-      img: 'https://user-images.githubusercontent.com/68834718/210225545-989f79c3-cf05-4c53-b48e-b21f373b3734.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
+    
+    
   ],
 };
